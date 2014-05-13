@@ -2,7 +2,7 @@ import cherrypy
 
 # 這是 CDAG5 類別的定義
 class CDAG5(object):
-    # 各組利用 index 引導隨後的程式執行
+# 各組利用 index 引導隨後的程式執行
     @cherrypy.expose
     def index(self, *args, **kwargs):
         outstring = '''
